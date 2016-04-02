@@ -1,10 +1,7 @@
 #!/usr/bin/make -f
 
 export PYBUILD_NAME=path-and-address
+export PYBUILD_TEST_PYTEST=1
 
 %:
 	dh $@ --with python2,python3 --buildsystem=pybuild
-
-override_dh_auto_test:
-	PYTHONPATH=$(CURDIR) py.test
-	PYTHONPATH=$(CURDIR) py.test-3
