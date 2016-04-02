@@ -1,4 +1,4 @@
-python-path-and-address (1.1.0-1) unstable; urgency=low
+python-path-and-address (1.1.0-1) unstable; urgency=medium
 
   * Initial release (Closes: #790612)
 
