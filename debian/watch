@@ -1,2 +1,2 @@
-version=4
+version=3
 https://github.com/joeyespo/path-and-address/releases .*/v?(\d.*)\.tar\.gz
