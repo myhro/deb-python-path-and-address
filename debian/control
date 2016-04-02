@@ -5,8 +5,10 @@ Maintainer: Tiago Ilieve <tiago.myhro@gmail.com>
 Build-Depends: debhelper (>= 9),
                dh-python,
                python-all,
+               python-pytest,
                python-setuptools,
                python3-all,
+               python3-pytest,
                python3-setuptools
 Standards-Version: 3.9.7
 X-Python-Version: >= 2.7
