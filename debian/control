@@ -1,15 +1,45 @@
 Source: python-path-and-address
-Section: unknown
+Section: python
 Priority: optional
 Maintainer: Tiago Ilieve <tiago.myhro@gmail.com>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/python-path-and-address.git
-#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/python-path-and-address.git;a=summary
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all,
+               python-setuptools,
+               python3-all,
+               python3-setuptools
+Standards-Version: 3.9.7
+X-Python-Version: >= 2.7
+Homepage: https://github.com/joeyespo/path-and-address
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/python-path-and-address.git
+Vcs-Browser: https://anonscm.debian.org/git/collab-maint/python-path-and-address.git
 
 Package: python-path-and-address
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Architecture: all
+Depends: ${misc:Depends},
+         ${python:Depends}
+Description: Functions for server CLI applications used by humans. (Python 2 version)
+ Path-and-address resolves ambiguities for command-line interface applications
+ with the following pattern:
+ .
+ $ your_app [<path>] [<address>]
+ .
+ The library applies the principal of least surprise to command-line
+ interfaces.
+ .
+ This package is built for Python 2.
+
+Package: python3-path-and-address
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends}
+Description: Functions for server CLI applications used by humans. (Python 3 version)
+ Path-and-address resolves ambiguities for command-line interface applications
+ with the following pattern:
+ .
+ $ your_app [<path>] [<address>]
+ .
+ The library applies the principal of least surprise to command-line
+ interfaces.
+ .
+ This package is built for Python 3.
