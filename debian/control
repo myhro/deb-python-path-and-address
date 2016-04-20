@@ -21,7 +21,7 @@ Package: python-path-and-address
 Architecture: all
 Depends: ${misc:Depends},
          ${python:Depends}
-Description: Functions for server CLI applications used by humans. (Python 2)
+Description: Functions for server CLI applications used by humans (Python 2)
  Path-and-address resolves ambiguities for command-line interface applications
  with the following pattern:
  .
@@ -36,7 +36,7 @@ Package: python3-path-and-address
 Architecture: all
 Depends: ${misc:Depends},
          ${python3:Depends}
-Description: Functions for server CLI applications used by humans. (Python 3)
+Description: Functions for server CLI applications used by humans (Python 3)
  Path-and-address resolves ambiguities for command-line interface applications
  with the following pattern:
  .
