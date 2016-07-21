@@ -1,7 +1,8 @@
 Source: python-path-and-address
 Section: python
 Priority: optional
-Maintainer: Tiago Ilieve <tiago.myhro@gmail.com>
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Tiago Ilieve <tiago.myhro@gmail.com>
 Build-Depends: debhelper (>= 9),
                dh-python,
                python-all,
