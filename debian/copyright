@@ -4,13 +4,13 @@ Source: https://github.com/joeyespo/path-and-address
 
 Files: *
 Copyright: 2012-2016, Joe Esposito <joe@joeyespo.com>
-License: MIT
+License: Expat
 
 Files: debian/*
 Copyright: 2016, Tiago Ilieve <tiago.myhro@gmail.com>
-License: MIT
+License: Expat
 
-License: MIT
+License: Expat
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
  in the Software without restriction, including without limitation the rights
