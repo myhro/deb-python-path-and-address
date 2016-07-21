@@ -5,6 +5,7 @@ python-path-and-address (2.0.1-1) unstable; urgency=medium
     - Set DPMT as Maintainer, add myself to Uploaders.
     - Bump Standards-Version to 3.9.8 (no changes needed).
     - Remove dot from short description.
+    - Update 'Vcs-*' fields from 'collab-maint' to 'python-modules' namespace.
   * debian/copyright: change license name from 'MIT' to 'Expat', as the first
     one isn't a valid short name per DEP-5.
   * Switches from 'gbp' to 'git-dpm' (as required by DPMT).

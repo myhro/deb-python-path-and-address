@@ -15,8 +15,8 @@ Standards-Version: 3.9.8
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.3
 Homepage: https://github.com/joeyespo/path-and-address
-Vcs-Git: https://anonscm.debian.org/git/collab-maint/python-path-and-address.git
-Vcs-Browser: https://anonscm.debian.org/git/collab-maint/python-path-and-address.git
+Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/python-path-and-address.git
+Vcs-Browser: https://anonscm.debian.org/git/python-modules/packages/python-path-and-address.git
 
 Package: python-path-and-address
 Architecture: all
