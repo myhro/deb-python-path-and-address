@@ -1,11 +1,11 @@
 # see git-dpm(1) from git-dpm package
-5151fde13d33238307d91f8d103b33ae8d3b093b
-5151fde13d33238307d91f8d103b33ae8d3b093b
-5151fde13d33238307d91f8d103b33ae8d3b093b
-5151fde13d33238307d91f8d103b33ae8d3b093b
-python-path-and-address_1.1.0.orig.tar.xz
-b7fa296a54564cf8eaab24a69793ed2ec44e2c70
-4736
+1d12541aa6a6f0408e350ff84d671c3bf5a45ef6
+1d12541aa6a6f0408e350ff84d671c3bf5a45ef6
+1d12541aa6a6f0408e350ff84d671c3bf5a45ef6
+1d12541aa6a6f0408e350ff84d671c3bf5a45ef6
+python-path-and-address_2.0.1.orig.tar.xz
+c1dfd8d6a6cd4f90d35d9e7bdf70e964b8d7d8db
+4876
 debianTag="debian/%e%v"
 patchedTag="patched/%e%v"
 upstreamTag="upstream/%e%u"
